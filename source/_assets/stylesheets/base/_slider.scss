@@ -1,0 +1,154 @@
+* {
+	margin: 0;
+}
+
+h1, h2, h3 {
+	margin-top: 0;
+	margin-bottom: 1.5em;
+}
+
+h1 {
+	text-align: center;
+	line-height: 3;
+}
+
+section.sub-nav {
+	text-align: center;
+	padding: 1em;
+	
+	> div {
+		display: inline-block;
+		
+		a {
+			padding: 0.62em;
+			border: 1px solid darkGray;
+			border-radius: 4px;
+			@include transition-property(all);
+			@include transition-duration(0.2s);
+			@include transition-timing-function(ease-in-out);
+			
+			&:hover {
+				background: darkGray;
+			}
+		}
+		
+		&.active-slide > a {
+			background: darkGray;
+		}
+	}
+}
+
+section.slider {
+	@include outer-container(100%);
+	position: relative;
+	height: 500px;
+	overflow: hidden;
+	
+	.controls {
+		position: absolute;
+		width: 100%;
+		height: 100%;
+		z-index: 10;
+
+		.prev,
+		.next {
+			position: absolute;
+			top: 50%;
+			margin-top: -42px;
+			opacity: 0.62;
+
+			&:hover {
+				opacity: 1;
+			}
+		}
+		.prev {
+			left: 20px;
+		}
+		.next {
+			right: 20px;
+		}
+	}
+
+	.slide {
+		overflow: hidden;
+		position: absolute;
+		width: 100%;
+		height: 100%;
+		z-index: 0;
+
+		@include transition-property(transform);
+		@include transition-duration(.5s);
+		@include transition-timing-function(ease-in);
+
+		&.slide-1 {
+			background: url("https://bestrentmallorca.com/img/excursions/capformentor/slider/Cap_Formentor-slider.jpg"), darkslategray;
+			background-position: left;
+			background-repeat: no-repeat;
+			background-size: 100%;
+		}
+
+		&.slide-2 {
+			background: url("http://jirimaha.com/avg/img/product/slider1-bg.png"), DarkCyan;
+			background-position: right;
+			background-repeat: no-repeat;
+			background-size: 60%;
+		}
+		
+		&.slide-3 {
+			background: url("http://jirimaha.com/avg/img/product/slider1-bg.png"), DarkGoldenRod;
+			background-position: right;
+			background-repeat: no-repeat;
+			background-size: 60%;
+		}
+		
+		&.slide-4 {
+			background: url("http://jirimaha.com/avg/img/product/slider1-bg.png"), LightSlateGray;
+			background-position: right;
+			background-repeat: no-repeat;
+			background-size: 60%;
+		}
+
+		&.active-slide {
+			@include transform(translateX(0));
+			z-index: 3;
+		}
+		&.move-right,
+		&.next-slide {
+			@include transform(translateX(100%));
+			z-index: 1;
+		}
+		&.move-left,
+		&.previous-slide {
+			@include transform(translateX(-100%));
+			z-index: 1;
+		}
+		&.recent-slide {
+			z-index: 2;
+		}
+		
+		.text-content {
+			@include span-columns(4);
+			@include shift(1);
+			padding: 70px 0;
+			text-align: left;
+			
+		}
+
+		.image-content {
+			@include span-columns(7);
+
+			img {
+				max-width: 100%;
+			}
+		}
+	}
+}
+
+footer {
+	height: 100%;
+	background: #f1f1f1;
+	color: lightgray;
+	text-align: center;
+	height: 100%;
+	padding: 3em 0 2.5em;
+}

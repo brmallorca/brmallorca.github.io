@@ -1,4 +1,7 @@
-gems: [bourbon, neat]
+gems:
+- jekyll-assets
+- bourbon
+- neat
 
 # Structure configuration
 source: source
@@ -8,11 +11,11 @@ assets:
   cachebust: soft
 
 # Site settings
-title: Jekyll Starter
+title: David Martins
 description: Prototyping starter kit for Jekyll
 
 # Name of project on Github
-baseurl: /proteus-jekyll
+baseurl: /
 
 # Build settings
 markdown: kramdown
