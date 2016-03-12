@@ -15,11 +15,12 @@ title: David Martins
 description: Prototyping starter kit for Jekyll
 
 # Name of project on Github
-baseurl: /
+baseurl: 
 
 # Build settings
 markdown: kramdown
 
-languages: ["en",  "es"]
+#Polyglot
+languages: ["en", "es", "de", "fr"]
 default_lang: "en"
-exclude_from_localization: ["javascript", "images", "css"]
+exclude_from_localization: ["javascript", "images", "css", "public"]
