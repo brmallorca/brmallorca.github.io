@@ -3,7 +3,7 @@ $base-font-family: $helvetica;
 $heading-font-family: $base-font-family;
 
 // Font Sizes
-$base-font-size: 1em;
+$base-font-size: 1.2em;
 
 // Line height
 $base-line-height: 1.5;
@@ -19,11 +19,12 @@ $base-z-index: 0;
 $blue: #477dca;
 $dark-gray: #333;
 $medium-gray: #999;
+$sky: #E8F7F8;
 $light-gray: #ddd;
 
 // Font Colors
 $base-background-color: #fff;
-$base-font-color: $dark-gray;
+$base-font-color: black;
 $action-color: $blue;
 
 // Border

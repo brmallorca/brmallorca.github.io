@@ -21,7 +21,7 @@ description: Prototyping starter kit for Jekyll
 baseurl: 
 
 # Build settings
-markdown: kramdown
+markdown: redcarpet
 
 #Polyglot
 languages: ["en", "es", "de", "ru", "fr", "it"]

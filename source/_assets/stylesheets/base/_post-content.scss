@@ -1,0 +1,9 @@
+.post{
+	padding: 50px;
+}
+
+.post-content{
+	padding: 30px;
+	@include span-columns(7);
+}
+
