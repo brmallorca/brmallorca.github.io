@@ -1,6 +1,6 @@
 ---
 title: "Sa Calobra"
-categories: trips
+categories: viajes
 layout: post
 lang: es
 photos:

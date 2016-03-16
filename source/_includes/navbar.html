@@ -10,13 +10,13 @@
          {{ site.baseurl }}/{{site.active_lang}}
         {% endif%}">Home</a></li>
 
-          {% for category in site.categories %}
-          {% assign ctgName = category | first %}
-          {% if ctgName != "category" %}
-          <li class="nav-link"><a href="/{{ ctgName }}">{{ ctgName | capitalize  }}</a></li>
-           {% endif %}    
+          {% for post in site.categories['category'] %}
+          <li class="nav-link"><a href="{% if site.active_lang == site.default_lang %}
+        {{ post.permalink }}
+        {%else%}
+         {{ site.baseurl }}/{{site.active_lang}}{{ post.permalink }}
+        {% endif%}">{{ post.title }}</a></li>
           {% endfor %}
-
        
         <li class="nav-link more"><a href="javascript:void(0)">More</a>
           <ul class="submenu">
