@@ -4,9 +4,20 @@
     <a href="javascript:void(0)" class="navigation-menu-button" id="js-mobile-menu">MENU</a>
     <nav role="navigation">
       <ul id="js-navigation-menu" class="navigation-menu show">
-        <li class="nav-link"><a href="{{ site.baseurl }}/">Home</a></li>
-        <li class="nav-link"><a href="javascript:void(0)">About Us</a></li>
-        <li class="nav-link"><a href="javascript:void(0)">Contact</a></li>
+        <li class="nav-link"><a href="{% if site.active_lang == site.default_lang %}
+        {{ site.baseurl }}/
+        {%else%}
+         {{ site.baseurl }}/{{site.active_lang}}
+        {% endif%}">Home</a></li>
+
+          {% for category in site.categories %}
+          {% assign ctgName = category | first %}
+          {% if ctgName != "category" %}
+          <li class="nav-link"><a href="/{{ ctgName }}">{{ ctgName | capitalize  }}</a></li>
+           {% endif %}    
+          {% endfor %}
+
+       
         <li class="nav-link more"><a href="javascript:void(0)">More</a>
           <ul class="submenu">
             <li><a href="javascript:void(0)">Submenu Item</a></li>

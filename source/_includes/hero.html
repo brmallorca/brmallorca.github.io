@@ -1,11 +1,16 @@
 <div class="hero">
 	<div class="hero-inner">
-    <a href="" class="hero-logo"><img src="{{ site.baseurl }}/images/logo-hand.jpg" alt="Logo"></a>
+    <a href="{% if site.active_lang == site.default_lang %}
+        {{ site.baseurl }}/
+        {%else%}
+         {{ site.baseurl }}/{{site.active_lang}}
+        {% endif%}" class="hero-logo"><img src="{{ site.baseurl }}/images/logo-hand.jpg" alt="Logo"></a>
 
     
 		<div class="hero-copy">
 			<h1>Best Rent Mallorca</h1>
 			<p>Excursions, Bikes, Cars, Scooters, Nigh life, Water sports, Quads, Jetski</p>	
+			{% include like.html %}
 		</div>
 
 	</div>
