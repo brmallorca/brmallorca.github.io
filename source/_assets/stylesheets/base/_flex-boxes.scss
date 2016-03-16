@@ -1,4 +1,5 @@
 .flex-boxes {
+  background-repeat: no-repeat;           
   $base-border-radius: 3px !default;
   $base-background-color: white !default;
   $dark-gray: #333 !default;
@@ -10,23 +11,28 @@
   $flex-box-gutter: 0.4em;
   $flex-box-width: 18em;
   $flex-box-color: transparentize($base-font-color, 0.3);
+    $tamanho: 25em;
   $flex-box-top-colors: 
-    tomato, 
-    #72BFBF, 
-    #92B1E3, 
-    #E3D743,
-    #CCC,
-    #F6C05C;
+  tomato, 
+  #72BFBF, 
+  #92B1E3, 
+  #E3D743,
+  #CCC,
+  #F6C05C;
+  
 
-    @include clearfix;
-    @include display(flex);
-    @include justify-content(center);
-    @include align-items(stretch);
-    @include flex-wrap(wrap);
-    clear: both;
-    text-align: center;
+  @include clearfix;
+  @include display(flex);
+  @include justify-content(center);
+  @include align-items(stretch);
+  @include flex-wrap(wrap);
+  clear: both;
+  text-align: center;
 
   .flex-box {
+    //height: $tamanho;
+    background-position: center center; 
+    background-size: 50%;
     @include transition (all 0.2s ease-in-out);
     @include flex(2 2 15em);
     @include align-self(stretch);
@@ -35,8 +41,10 @@
     box-shadow: inset 0 0 1px $flex-box-border-color, 0 2px 4px darken($base-background-color, 10%);
     display: block;
     margin: $flex-box-gutter;
-    padding: 2em 2em 3em 2em;
+    //padding: 2em 2em 3em 2em;
     text-decoration: none;
+
+    position: relative;
 
     @for $i from 1 to 7 { // assign colors from $flex-box-top-colors list
       &:nth-child(#{$i}) {
@@ -50,33 +58,57 @@
       }
     }
 
-    img {
-      display: block;
+    .image{
+      height: 300px;
+      margin-top: 1em;
+      background-repeat: no-repeat; 
+      background-size: cover; 
+      background-position: center center;
+    }
+
+
+
+    .flex-content{
+      margin-bottom: 3em;
+
+
+      .flex-title {
+        color: $flex-box-color;
+        font-size: 1.2em;
+        margin-bottom: 0.5em;
+      }
+
+      p {
+        color: transparentize($flex-box-color, 0.1);
+        line-height: 1.5em;
+        margin: auto;
+      }
+
+    }
+
+    .bar{
+      position: absolute;
+      @include row(table);
+      bottom: 0;
+
+    }
+
+    .seemore{
+      @include span-columns(6); 
       height: 3em;
-      margin: 0 auto 1em;
-      opacity: 0.4;
-    }
 
-    .flex-title {
-      color: $flex-box-color;
-      font-size: 1.2em;
-      margin-bottom: 0.5em;
     }
-
-    p {
-      color: transparentize($flex-box-color, 0.1);
-      line-height: 1.5em;
-      margin: auto;
+    .recomend{
+      @include span-columns(6);
+      height: 3em;
     }
   }
 
   .flex-box-big {
-    @include flex(1 1 40em);
+    @include flex(1 1 30em);
   }
 
-    .flex-box {
-    
-   
+  .flex-box {
     background-size: cover;
   }
 
