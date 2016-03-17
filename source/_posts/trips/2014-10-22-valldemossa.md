@@ -1,22 +1,19 @@
 ---
-title:  "Es trenc"
-categories: coches
-layout: post
-lang: es
+title:  "Valldemossa"
+categories: trips
+layout: description-and-gallery
+thumbnail: estrenc/es-trenc0.jpg
 photos:
-- img: estrenc/es-trenc0.jpg
+- img: bikes/bike.jpg
   index: 1
-- img: estrenc/es-trenc1.jpg
+- img: bikes/ebike.jpg
   index: 2
-- img: estrenc/es-trenc2.jpg
+- img: bikes/moutainbike.jpg
   index: 3
-- img: estrenc/es-trenc3.jpg
-  index: 4
-
 
 ---
 
-Spanish
+Synchronization
 -------------------
 
 StackEdit can be combined with <i class="icon-provider-gdrive"></i> **Google Drive** and <i class="icon-provider-dropbox"></i> **Dropbox** to have your documents saved in the *Cloud*. The synchronization mechanism takes care of uploading your modifications or downloading the latest version of your documents.

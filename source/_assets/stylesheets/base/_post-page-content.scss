@@ -1,0 +1,44 @@
+
+
+.post{
+	padding: 50px;
+}
+
+.page{
+	padding: 50px;
+}
+
+.content-and-gallery{
+@include row;
+margin-bottom: 2em;
+}
+
+.post-content{
+	padding: 30px;
+	@include span-columns(7);
+}
+
+.page-content{
+	padding: 15px;
+	background-color: rgba(18, 175, 18, 0.11);
+	
+}
+
+.post-title{
+	background-color: white;
+	font-size: 1.6em;
+	color: #D08A00;
+	span{
+		font-weight: 200;
+		font-size: large;
+	}
+}
+
+.gallery{
+
+}
+
+.fb-comments{
+	@include row;
+	background-color: rgba(255, 255, 255, 0.78)
+}

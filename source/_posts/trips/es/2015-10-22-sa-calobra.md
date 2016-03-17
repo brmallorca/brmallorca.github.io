@@ -1,8 +1,9 @@
 ---
 title: "Sa Calobra"
 categories: viajes
-layout: post
+layout: description-and-gallery
 lang: es
+thumbnail: estrenc/es-trenc1.jpg
 photos:
 - img: bikes/bike.jpg
   index: 1
