@@ -93,13 +93,16 @@
     }
 
     .seemore{
-      @include span-columns(6);
+      text-align: left;
+      @include row;
       height: 3em;
+      padding: 0.2em;
 
     }
     .recomend{
-      @include span-columns(6);
+      @include row;
       height: 3em;
+      padding: 0.2em;
     }
   }
 

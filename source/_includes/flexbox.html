@@ -1,0 +1,26 @@
+<a href="{% if site.active_lang == site.default_lang %}
+  {{ post.permalink }}
+  {%else%}
+  {{ site.baseurl }}/{{site.active_lang}}{{ post.permalink }}
+  {% endif%}"
+
+    class="flex-box {{post.flex}}">
+
+  <div class="flex-content">
+    <h1 class="flex-title">{{ post.title }}</h1>
+    <p>{{ post.subtitle }}</p>
+    <div class="image" style="background-image: url({{ site.baseurl }}/images/{{post.thumbnail}})" >
+    </div>
+  </div>
+
+  <div class="bar">
+
+    <div class="seemore">
+      <span class="tag"><span class="from">{{post.from}}</span> €100</span>
+    </div>
+    <div class="recomend">
+      {% include like.html %}
+    </div>
+
+  </div>
+</a>

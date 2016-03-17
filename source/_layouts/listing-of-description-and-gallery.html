@@ -22,31 +22,8 @@ layout: default
 	<div class="flex-boxes">
 		{% for post in site.categories[page.type] %}
 
-		<a href="{% if site.active_lang == site.default_lang %}
-		{{ post.permalink }}
-		{%else%}
-		{{ site.baseurl }}/{{site.active_lang}}{{ post.permalink }}
-		{% endif%}"
-
-		class="flex-box {{post.flex}}">
-
-		<div class="flex-content">
-			<h1 class="flex-title">{{ post.title }}</h1>
-			<p>{{ post.subtitle }}</p>
-			<div class="image" style="background-image: url({{ site.baseurl }}/images/{{post.thumbnail}})" >
-			</div>
-		</div>
-
-		<div class="bar">
-			<div class="seemore">
-				<h3>From €31</h3>
-			</div>
-			<div class="recomend">
-				{% include like.html %}
-			</div>
-
-		</div>
-	</a>
+		{% include flexbox.html %}
+		
 	{% endfor %}
 </div>
 </div>
