@@ -26,7 +26,7 @@ layout: default
 			
 			{% for post in site.categories['category'] %}
 				{% if post.type == page.type %}
-				<th>{{page.type | capitalize }}</th>
+				<th>{{page.title | capitalize }}</th>
 				{% for num in (1...post.columns) %}
 				<th>{{num}}</th>
 				{% endfor %}
@@ -34,13 +34,11 @@ layout: default
 			{% endfor %}
 			</tr>
 			
-				
-			
 
 			{% for post in site.categories[page.type] %}
 			<tr>
-				<td>
-					<h4>{{ post.title }}</h4>	
+				<td class="brand">
+					<p>{{ post.title }}</p>	
 					<img src="{{ site.baseurl }}/images/{{post.thumbnail}}" alt="{{ post.title }}">
 				</td>
 				{% for price in post.prices%}

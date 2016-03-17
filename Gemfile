@@ -10,3 +10,4 @@ gem "neat"
 gem "sass"
 gem "uglifier"
 gem "redcarpet"
+gem 'font-awesome-sass', '~> 4.5.0'

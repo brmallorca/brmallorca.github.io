@@ -1,11 +1,12 @@
-
-
 .post{
 	padding: 50px;
 }
 
 .page{
-	padding: 50px;
+	padding: 5px;
+	@include media(769px) {
+		padding: 50px;
+	}
 }
 
 .content-and-gallery{

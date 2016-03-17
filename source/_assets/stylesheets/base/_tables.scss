@@ -11,18 +11,43 @@ th {
   font-weight: 600;
   padding: $small-spacing 0;
   text-align: center;
-  font-size: 1.7em;
+  
+  font-size: 0.9em;
+  @include media(769px) {
+    font-size: 1.3em;
+  } 
+  @include media(1024px) {
+    font-size: 1.6em;
+  } 
 }
 
 td {
   border-bottom: $base-border;
   padding: $small-spacing 0;
   text-align: center;
-  font-size: 1.6em;
+  font-size: 1em;
+  @include media(769px) {
+    font-size: 1.4em;
+  } 
+  @include media(1024px) {
+    font-size: 1.6em;
+  } 
 }
 
 tr,
 td,
 th {
   vertical-align: middle;
+}
+
+
+.brand{
+  font-size: 1em;
+  text-align: left;
+  @include media(769px) {
+    font-size: 1.4em;
+  } 
+  @include media(1024px) {
+    font-size: 1.6em;
+  } 
 }
