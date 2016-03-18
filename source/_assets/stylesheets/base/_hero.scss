@@ -6,28 +6,22 @@
   $hero-background-bottom: #20392B;
   $hero-color: white;
   $gradient-angle: 10deg;
-  $hero-image: 'https://bestrentmallorca.com/img/excursions/capformentor/slider/Cap_Formentor-slider.jpg';
+  $hero-image: 'https://bestrentmallorca.com/img/excursions/capformentor/slider/Cap_Formentor-slider--.jpg';
   
 
-  @include background(url($hero-image), linear-gradient($gradient-angle, $hero-background-bottom, $hero-background-top), no-repeat $hero-background-top scroll);
-  background-color: #324766;
-  background-position: top;
-  background-repeat: no-repeat;
-  background-size: cover;
-  padding-bottom: 3em;
-
+  
   .hero-logo img {
-    height: 6em;
-    margin-bottom: 1em;
+    height: 10em;
+    margin-top: 3em;
+    margin-bottom: 2em;
     
   }
 
   .hero-inner {
-    @include outer-container;
     @include clearfix;
     margin: auto;
-    padding: 3.5em;
-    text-align: center;
+    padding: 2em;
+    text-align: left;
   
 
     .hero-copy {

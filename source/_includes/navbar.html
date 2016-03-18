@@ -1,68 +1,68 @@
-<header class="navigation" role="banner">
+<header class="navigation " role="banner">
   <div class="navigation-wrapper">
-  
+
     <a href="javascript:void(0)" class="navigation-menu-button" id="js-mobile-menu">MENU</a>
     <nav role="navigation">
       <ul id="js-navigation-menu" class="navigation-menu show">
         <li class="nav-link"><a href="{% if site.active_lang == site.default_lang %}
-        {{ site.baseurl }}/
-        {%else%}
-         {{ site.baseurl }}/{{site.active_lang}}
-        {% endif%}">Home</a></li>
+          {{ site.baseurl }}/
+          {%else%}
+          {{ site.baseurl }}/{{site.active_lang}}
+          {% endif%}">Home</a></li>
 
           {% for post in site.categories['category'] %}
           <li class="nav-link"><a href="{% if site.active_lang == site.default_lang %}
-        {{ post.permalink }}
-        {%else%}
-         {{ site.baseurl }}/{{site.active_lang}}{{ post.permalink }}
-        {% endif%}">{{ post.title }}</a></li>
-          {% endfor %}
-       
-        <li class="nav-link more"><a href="javascript:void(0)">More</a>
-          <ul class="submenu">
-            <li><a href="javascript:void(0)">Submenu Item</a></li>
-            <li><a href="javascript:void(0)">Another Item</a></li>
-            <li class="more"><a href="javascript:void(0)">Item with submenu</a>
+            {{ post.permalink }}
+            {%else%}
+            {{ site.baseurl }}/{{site.active_lang}}{{ post.permalink }}
+            {% endif%}">{{ post.title }}</a></li>
+            {% endfor %}
+
+            <li class="nav-link more show"><a href="javascript:void(0)">More</a>
               <ul class="submenu">
-                <li><a href="javascript:void(0)">Sub-submenu Item</a></li>
+                <li><a href="javascript:void(0)">Submenu Item</a></li>
                 <li><a href="javascript:void(0)">Another Item</a></li>
-              </ul>
-            </li>
-            <li class="more"><a href="javascript:void(0)">Another submenu</a>
-              <ul class="submenu">
-                <li><a href="javascript:void(0)">Sub-submenu</a></li>
-                <li><a href="javascript:void(0)">An Item</a></li>
+                <li class="more"><a href="javascript:void(0)">Item with submenu</a>
+                  <ul class="submenu">
+                    <li><a href="javascript:void(0)">Sub-submenu Item</a></li>
+                    <li><a href="javascript:void(0)">Another Item</a></li>
+                  </ul>
+                </li>
+                <li class="more"><a href="javascript:void(0)">Another submenu</a>
+                  <ul class="submenu">
+                    <li><a href="javascript:void(0)">Sub-submenu</a></li>
+                    <li><a href="javascript:void(0)">An Item</a></li>
+                  </ul>
+                </li>
               </ul>
             </li>
           </ul>
-        </li>
-      </ul>
-    </nav>
-    <div class="navigation-tools">
-      
-    <ul class="navigation-menu show">
-        
-        <li class="nav-link more">
-        
-            
-      <a href="javascript:void(0)">{{site.active_lang | upcase}} <img src="{{ site.baseurl }}/images/flags/{{site.active_lang}}.png" alt=""></a>
-           <ul class="submenu">
-           {% for tongue in site.languages %}
-           {%if tongue != site.active_lang%}
-            <li>
-              <a href="{% if tongue == site.default_lang %} 
-                          {{site.baseurl}}{{page.url}} 
-                      {% else %} 
-                          {{site.baseurl}}/{{ tongue }}{{page.url}} 
+         
+        </nav>
+
+        <div class="navigation-tools">
+
+          <ul class="navigation-menu show">
+
+            <li class="nav-link more">
+              <a href="javascript:void(0)">{{site.active_lang | upcase}} <img src="{{ site.baseurl }}/images/flags/{{site.active_lang}}.png" alt=""></a>
+              <ul class="submenu">
+               {% for tongue in site.languages %}
+               {%if tongue != site.active_lang%}
+               <li>
+                <a href="{% if tongue == site.default_lang %} 
+                {{site.baseurl}}{{page.url}} 
+                {% else %} 
+                {{site.baseurl}}/{{ tongue }}{{page.url}} 
                 {% endif %} "
                 >{{tongue | upcase }} <img src="{{ site.baseurl }}/images/flags/{{tongue}}.png" alt=""></a>
-            </li>
-            {%endif%}
-           {% endfor %}
-          </ul>
-        </li>
-      </ul>
+              </li>
+              {%endif%}
+              {% endfor %}
+            </ul>
+          </li>
+        </ul>
+      </div>
+
     </div>
-    
-  </div>
-</header>
+  </header>
