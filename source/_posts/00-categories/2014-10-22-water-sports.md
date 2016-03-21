@@ -4,7 +4,7 @@ subtitle: "The best cars for rent"
 permalink: /water-sports/
 category: category
 type: water-sports
-columns: 7
+columns: 3
 from: from
 layout: pricelist
 thumbnail: cars/corsa.jpg

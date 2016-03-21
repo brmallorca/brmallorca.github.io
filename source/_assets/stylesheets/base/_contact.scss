@@ -1,0 +1,22 @@
+.contact-main{
+	width: 100%;
+	padding: 2em 0 2em 0;
+	@include outer-container;
+
+	.contact-left{
+	@include span-columns(6);
+	h1{ text-align: left;}
+}
+
+
+.contact-right{
+	@include span-columns(6);
+	
+}
+
+
+
+}
+
+
+

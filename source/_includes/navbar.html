@@ -8,7 +8,8 @@
           {{ site.baseurl }}/
           {%else%}
           {{ site.baseurl }}/{{site.active_lang}}
-          {% endif%}">Home</a></li>
+          {% endif%}">Home</a>
+        </li>
 
           {% for post in site.categories['category'] %}
           <li class="nav-link"><a href="{% if site.active_lang == site.default_lang %}
@@ -18,6 +19,12 @@
             {% endif%}">{{ post.title }}</a></li>
             {% endfor %}
 
+          <li class="nav-link"><a href="{% if site.active_lang == site.default_lang %}
+          {{ site.baseurl }}/contact.html
+          {%else%}
+          {{ site.baseurl }}/{{site.active_lang}}/contact.html
+          {% endif%}">Contact</a>
+        </li>
             
           </ul>
          
