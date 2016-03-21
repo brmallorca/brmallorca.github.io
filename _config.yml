@@ -24,9 +24,14 @@ baseurl:
 markdown: redcarpet
 
 #Polyglot
-languages: ["en", "es", "de"] #"ru", "fr", "it"
+languages: ["en", "es", "de","fr"] #"ru", "fr", "it"
 default_lang: "en"
 exclude_from_localization: ["javascript", "images", "css", "public"]
 
+herotext:
+  en: "Excursions, Bikes, Cars, Scooters, Nigh life, Water sports, Quads, Jetski!"
+  es: "Excursiones, Bicicletas, Coches, Motos, Vida nocturna, Deportes acuáticos, Quads, Jet ski!"
+  fr: "Excursions, Motos, Voitures, Scooters, Vie nocturne, Sports nautiques, Quads, Jetski!"
+  de: "Ausflüge, Fahrräder, Autos, Motorroller , Nachtleben, Wassersport, Quads, Jetskis!"
 
 
