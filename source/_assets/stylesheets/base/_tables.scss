@@ -4,6 +4,8 @@ table {
   margin: $small-spacing 0;
   table-layout: fixed;
   width: 100%;
+    background-color: white;
+    color: #5F5F5F
 }
 
 th {
@@ -42,6 +44,7 @@ th {
 
 
 .brand{
+  padding: 0.2em;
   font-size: 1em;
   text-align: left;
   @include media(769px) {

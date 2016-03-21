@@ -1,13 +1,14 @@
 ---
-title:  "Cars"
+title:  "Water Sports"
 subtitle: "The best cars for rent"
-permalink: /cars/
+permalink: /water-sports/
 category: category
-type: cars
+type: water-sports
 columns: 7
 from: from
 layout: pricelist
 thumbnail: cars/corsa.jpg
+flex: flex-box-big
 
 ---
 
