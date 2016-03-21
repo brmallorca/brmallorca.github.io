@@ -1,13 +1,17 @@
 <div class="hero">
 	<div class="hero-inner">
-    <a href="{% if site.active_lang == site.default_lang %}
-        {{ site.baseurl }}/
-        {%else%}
-         {{ site.baseurl }}/{{site.active_lang}}
-        {% endif%}" class="hero-logo"><img src="{{ site.baseurl }}/images/logo-no-background.png" alt="Logo"></a>
-    	{% include like.html %}
-		<div class="hero-copy">
-			<p>Excursions, Bikes, Cars, Scooters, Nigh life, Water sports, Quads, Jetski</p>	
+		<div class="logofb">
+			<a href="{% if site.active_lang == site.default_lang %}
+			{{ site.baseurl }}/
+			{%else%}
+			{{ site.baseurl }}/{{site.active_lang}}
+			{% endif%}" class="hero-logo">
+			<img src="{{ site.baseurl }}/images/logo-no-background.png" alt="Logo"></a>
+			{% include like.html %}
+		</div>
+
+		<div class="hero-text">
+			<h1>Excursions, Bikes, Cars, Scooters, Nigh life, Water sports, Quads, Jetski</h1>	
 			
 		</div>
 
