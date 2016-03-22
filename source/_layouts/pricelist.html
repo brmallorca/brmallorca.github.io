@@ -27,9 +27,23 @@ layout: default
 			{% for post in site.categories['category'] %}
 				{% if post.type == page.type %}
 				<th>{{page.title | capitalize }}</th>
-				{% for num in (1...post.columns) %}
-				<th>{{num}}</th>
-				{% endfor %}
+					{% if post.columns != "custom" %}
+						{% for num in (1...post.columns) %}
+						<th>{{num}}</th>
+						{% endfor %}
+					{% else %}
+					
+
+					{% for posta in site.categories[page.type] %}
+			
+						{% for col in posta.columns%}
+						<th>{{col}}</td>
+						{% endfor %}
+					
+					{% endfor %}	
+
+
+					{% endif %}
 				{% endif %}
 			{% endfor %}
 			</tr>

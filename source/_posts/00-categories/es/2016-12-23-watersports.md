@@ -1,15 +1,16 @@
 ---
-title:  "Water Sports"
-subtitle: "The best cars for rent"
+title:  "Deprtes Acuaticos"
+subtitle: "los mejores "
 permalink: /water-sports/
 category: category
 type: water-sports
 columns: 3
-from: from
+from: desde
 fromprice: €40
 layout: pricelist
 thumbnail: cars/corsa.jpg
 flex: flex-box-big
+lang: es
 
 ---
 

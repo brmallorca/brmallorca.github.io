@@ -5,13 +5,13 @@ layout: description-and-gallery
 lang: es
 thumbnail: estrenc/es-trenc0.jpg
 photos:
-- img: bikes/bike.jpg
+- img: estrenc/es-trenc0.jpg
   index: 1
 - img: bikes/ebike.jpg
   index: 2
 - img: bikes/moutainbike.jpg
   index: 3
-
+fromprice: €300
 ---
 
 Spanish

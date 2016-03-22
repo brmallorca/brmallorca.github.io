@@ -1,11 +1,12 @@
 ---
 title:  "Night life"
 subtitle: "The best cars for rent"
-permalink: /night/
+permalink: /nightlife/
 category: category
-type: night
-columns: 7
+type: nightlife
+columns: custom
 from: from
+fromprice: €49
 layout: pricelist
 thumbnail: cars/corsa.jpg
 

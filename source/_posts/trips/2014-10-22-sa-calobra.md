@@ -18,6 +18,7 @@ photos:
   index: 6
 - img: bikes/bike.jpg
   index: 7
+fromprice: €100
 
 ---
 
