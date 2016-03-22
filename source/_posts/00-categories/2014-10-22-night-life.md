@@ -1,14 +1,15 @@
 ---
 title:  "Night life"
-subtitle: "The best cars for rent"
+subtitle: "Party hard!"
 permalink: /nightlife/
 category: category
 type: nightlife
 columns: custom
-from: from
-fromprice: €49
+from: events from 
+fromprice: 18€
 layout: pricelist
-thumbnail: cars/corsa.jpg
+thumbnail: nightlife/nightlife.jpg
+flex: flex-box-big
 
 ---
 

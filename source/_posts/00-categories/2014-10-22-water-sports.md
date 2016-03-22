@@ -8,7 +8,7 @@ columns: 3
 from: from
 fromprice: €40
 layout: pricelist
-thumbnail: cars/corsa.jpg
+thumbnail: watersports/parasailing.jpg
 flex: flex-box-big
 
 ---
