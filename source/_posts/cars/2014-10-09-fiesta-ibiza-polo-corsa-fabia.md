@@ -1,15 +1,19 @@
 ---
-title:  "ismale"
+title:  "Fiesta"
 categories: cars
 layout: pricelist-item
 thumbnail: cars/fiesta.jpg
 prices:
-- €15
-- €20
-- €30
-- €40
-- €50
+- €35
 - €60
-- €70
+- €90
+- €120
+- €150
+- €180
+- €210
 
 ---
+
+
+
+

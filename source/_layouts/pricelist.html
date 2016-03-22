@@ -34,13 +34,11 @@ layout: default
 					{% else %}
 					
 
-					{% for posta in site.categories[page.type] %}
 			
-						{% for col in posta.columns%}
+						{% for col in post.columnsdef %}
 						<th>{{col}}</td>
 						{% endfor %}
 					
-					{% endfor %}	
 
 
 					{% endif %}
