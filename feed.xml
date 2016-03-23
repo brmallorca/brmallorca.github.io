@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Best Rent Mallorca</title>
+    <description>the place to be</description>
+    <link>/</link>
+    <atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Wed, 23 Mar 2016 17:34:55 +0100</pubDate>
+    <lastBuildDate>Wed, 23 Mar 2016 17:34:55 +0100</lastBuildDate>
+    <generator>Jekyll v3.1.2</generator>
+    
+      <item>
+        <title>Motos</title>
+        <description>&lt;p&gt;This is a small text tha is included in this category&lt;/p&gt;
+</description>
+        <pubDate>Thu, 23 Oct 2014 00:00:00 +0200</pubDate>
+        <link>/motos/</link>
+        <guid isPermaLink="true">/motos/</guid>
+        
+        
+        <category>category</category>
+        
+      </item>
+    
+      <item>
+        <title>Cars</title>
+        <description>&lt;p&gt;This is a small text tha is included in this category&lt;/p&gt;
+</description>
+        <pubDate>Thu, 23 Oct 2014 00:00:00 +0200</pubDate>
+        <link>/cars/</link>
+        <guid isPermaLink="true">/cars/</guid>
+        
+        
+        <category>category</category>
+        
+      </item>
+    
+      <item>
+        <title>Bikes</title>
+        <description>&lt;p&gt;This is a small text tha is included in this category&lt;/p&gt;
+</description>
+        <pubDate>Thu, 23 Oct 2014 00:00:00 +0200</pubDate>
+        <link>/bikes/</link>
+        <guid isPermaLink="true">/bikes/</guid>
+        
+        
+        <category>category</category>
+        
+      </item>
+    
+      <item>
+        <title>Valldemossa</title>
+        <description>&lt;h2&gt;Synchronization&lt;/h2&gt;
+
+&lt;p&gt;StackEdit can be combined with &lt;i class=&quot;icon-provider-gdrive&quot;&gt;&lt;/i&gt; &lt;strong&gt;Google Drive&lt;/strong&gt; and &lt;i class=&quot;icon-provider-dropbox&quot;&gt;&lt;/i&gt; &lt;strong&gt;Dropbox&lt;/strong&gt; to have your documents saved in the &lt;em&gt;Cloud&lt;/em&gt;. The synchronization mechanism takes care of uploading your modifications or downloading the latest version of your documents.&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Full access to &lt;strong&gt;Google Drive&lt;/strong&gt; or &lt;strong&gt;Dropbox&lt;/strong&gt; is required to be able to import any document in StackEdit. Permission restrictions can be configured in the settings.&lt;/li&gt;
+&lt;li&gt;Imported documents are downloaded in your browser and are not transmitted to a server.&lt;/li&gt;
+&lt;li&gt;If you experience problems saving your documents on Google Drive, check and optionally disable browser extensions, such as Disconnect.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+
+&lt;h3&gt;UML diagrams&lt;/h3&gt;
+
+&lt;p&gt;You can also render sequence diagrams like this:&lt;/p&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-sequence&quot; data-lang=&quot;sequence&quot;&gt;Alice-&amp;gt;Bob: Hello Bob, how are you?
+Note right of Bob: Bob thinks
+Bob--&amp;gt;Alice: I am good thanks!
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;And flow charts like this:&lt;/p&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-flow&quot; data-lang=&quot;flow&quot;&gt;st=&amp;gt;start: Start
+e=&amp;gt;end
+op=&amp;gt;operation: My Operation
+cond=&amp;gt;condition: Yes or No?
+
+st-&amp;gt;op-&amp;gt;cond
+cond(yes)-&amp;gt;e
+cond(no)-&amp;gt;op
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; You can find more information:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;about &lt;strong&gt;Sequence diagrams&lt;/strong&gt; syntax [here][7],&lt;/li&gt;
+&lt;li&gt;about &lt;strong&gt;Flow charts&lt;/strong&gt; syntax [here][8].&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+</description>
+        <pubDate>Wed, 22 Oct 2014 00:00:00 +0200</pubDate>
+        <link>/trips/valldemossa.html</link>
+        <guid isPermaLink="true">/trips/valldemossa.html</guid>
+        
+        
+        <category>trips</category>
+        
+      </item>
+    
+      <item>
+        <title>Sa Calobra</title>
+        <description>&lt;h2&gt;Synchronization&lt;/h2&gt;
+
+&lt;p&gt;StackEdit can be combined with &lt;i class=&quot;icon-provider-gdrive&quot;&gt;&lt;/i&gt; &lt;strong&gt;Google Drive&lt;/strong&gt; and &lt;i class=&quot;icon-provider-dropbox&quot;&gt;&lt;/i&gt; &lt;strong&gt;Dropbox&lt;/strong&gt; to have your documents saved in the &lt;em&gt;Cloud&lt;/em&gt;. The synchronization mechanism takes care of uploading your modifications or downloading the latest version of your documents.&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Full access to &lt;strong&gt;Google Drive&lt;/strong&gt; or &lt;strong&gt;Dropbox&lt;/strong&gt; is required to be able to import any document in StackEdit. Permission restrictions can be configured in the settings.&lt;/li&gt;
+&lt;li&gt;Imported documents are downloaded in your browser and are not transmitted to a server.&lt;/li&gt;
+&lt;li&gt;If you experience problems saving your documents on Google Drive, check and optionally disable browser extensions, such as Disconnect.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+
+&lt;h3&gt;UML diagrams&lt;/h3&gt;
+
+&lt;p&gt;You can also render sequence diagrams like this:&lt;/p&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-sequence&quot; data-lang=&quot;sequence&quot;&gt;Alice-&amp;gt;Bob: Hello Bob, how are you?
+Note right of Bob: Bob thinks
+Bob--&amp;gt;Alice: I am good thanks!
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;And flow charts like this:&lt;/p&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-flow&quot; data-lang=&quot;flow&quot;&gt;st=&amp;gt;start: Start
+e=&amp;gt;end
+op=&amp;gt;operation: My Operation
+cond=&amp;gt;condition: Yes or No?
+
+st-&amp;gt;op-&amp;gt;cond
+cond(yes)-&amp;gt;e
+cond(no)-&amp;gt;op
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; You can find more information:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;about &lt;strong&gt;Sequence diagrams&lt;/strong&gt; syntax [here][7],&lt;/li&gt;
+&lt;li&gt;about &lt;strong&gt;Flow charts&lt;/strong&gt; syntax [here][8].&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+</description>
+        <pubDate>Wed, 22 Oct 2014 00:00:00 +0200</pubDate>
+        <link>/trips/sa-calobra.html</link>
+        <guid isPermaLink="true">/trips/sa-calobra.html</guid>
+        
+        
+        <category>trips</category>
+        
+      </item>
+    
+      <item>
+        <title>Titos</title>
+        <description></description>
+        <pubDate>Wed, 22 Oct 2014 00:00:00 +0200</pubDate>
+        <link>/nightlife/titos.html</link>
+        <guid isPermaLink="true">/nightlife/titos.html</guid>
+        
+        
+        <category>nightlife</category>
+        
+      </item>
+    
+      <item>
+        <title>Water Sports</title>
+        <description>&lt;p&gt;This is a small text tha is included in this category&lt;/p&gt;
+</description>
+        <pubDate>Wed, 22 Oct 2014 00:00:00 +0200</pubDate>
+        <link>/water-sports/</link>
+        <guid isPermaLink="true">/water-sports/</guid>
+        
+        
+        <category>category</category>
+        
+      </item>
+    
+      <item>
+        <title>Trips</title>
+        <description>&lt;h3&gt;Why go?&lt;/h3&gt;
+
+&lt;p&gt;Majorca, the largest island in the Balearics, may make you think of beach resorts, but there are plenty of other ways to enjoy both its coastline and the interior – particularly in autumn and winter when the crowds have gone and the temperature is more suitable for outdoor activities.&lt;/p&gt;
+</description>
+        <pubDate>Wed, 22 Oct 2014 00:00:00 +0200</pubDate>
+        <link>/trips/</link>
+        <guid isPermaLink="true">/trips/</guid>
+        
+        
+        <category>category</category>
+        
+      </item>
+    
+      <item>
+        <title>Quads</title>
+        <description>&lt;p&gt;This is a small text tha is included in this category&lt;/p&gt;
+</description>
+        <pubDate>Wed, 22 Oct 2014 00:00:00 +0200</pubDate>
+        <link>/quads/</link>
+        <guid isPermaLink="true">/quads/</guid>
+        
+        
+        <category>category</category>
+        
+      </item>
+    
+      <item>
+        <title>Night life</title>
+        <description>&lt;p&gt;This is a small text tha is included in this category&lt;/p&gt;
+</description>
+        <pubDate>Wed, 22 Oct 2014 00:00:00 +0200</pubDate>
+        <link>/nightlife/</link>
+        <guid isPermaLink="true">/nightlife/</guid>
+        
+        
+        <category>category</category>
+        
+      </item>
+    
+  </channel>
+</rss>
