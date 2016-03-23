@@ -11,11 +11,26 @@ destination: build
 permalink: none
 
 assets:
-  cachebust: soft
+  skip_baseurl_with_cdn: false
+  skip_prefix_with_cdn: false
+  prefix: "/assets"
+  assets:
+    - "*.png"
+    - "bundle.css"
+  digest: true
+  sources:
+    - _assets/css
+    - _assets/images
+    - _assets/javascripts
+    - _assets/stylesheets
+    - _assets/fonts
+    - _assets/img
+    - _assets/js
+
 
 # Site settings
-title: David Martins
-description: Prototyping starter kit for Jekyll
+title: Best Rent Mallorca
+description: the place to be
 
 # Name of project on Github
 baseurl: 
