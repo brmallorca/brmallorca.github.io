@@ -11,21 +11,7 @@ destination: build
 permalink: none
 
 assets:
-  skip_baseurl_with_cdn: false
-  skip_prefix_with_cdn: false
-  prefix: "/assets"
-  assets:
-    - "*.png"
-    - "bundle.css"
-  digest: true
-  sources:
-    - _assets/css
-    - _assets/images
-    - _assets/javascripts
-    - _assets/stylesheets
-    - _assets/fonts
-    - _assets/img
-    - _assets/js
+  -cachebust: soft
 
 
 # Site settings
